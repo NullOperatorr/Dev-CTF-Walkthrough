@@ -152,5 +152,8 @@ cat id_rsa
 <img width="1201" height="230" alt="image" src="https://github.com/user-attachments/assets/ca3c9e27-71e4-4e34-b3fc-0c687b5551c2" />
 <img width="969" height="875" alt="image" src="https://github.com/user-attachments/assets/89414c4b-1673-46a1-bbdf-ed764d99bd4f" />
 
+We now have both the **private key** and the password we discovered earlier: **`I_love_java`**. Since we have not used this password yet, let's try using it to authenticate to the server via SSH as the user **`jeanpaul`**.
+
+<img width="1204" height="487" alt="image" src="https://github.com/user-attachments/assets/24a1b8ac-8115-40e7-87c9-d6472d2de666" /> 
 
 
