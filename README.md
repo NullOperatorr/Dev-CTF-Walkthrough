@@ -61,10 +61,7 @@ nmap -Pn -sC -sS -sV -p- -T4 192.168.38.140
 | 111 | RPC | RPCBind |
 | 2049 | NFS | Network File System |
 | 8080 | HTTP | Apache httpd 2.4.38 |
-| 38005 | RPC | Unknown |
-| 45699 | RPC | Unknown |
-| 49185 | RPC | Unknown |
-| 57209 | RPC | Unknown |
+
 
 
  
