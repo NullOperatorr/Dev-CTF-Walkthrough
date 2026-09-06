@@ -126,6 +126,16 @@ We were able to access the /etc/passwd and found a new Admin User **jeanpaul** t
 
 **3- NFS Enumeration:**
 
+```bash
+showmount -e 192.168.38.140
+mkdir /mnt/dev
+mount -t nfs 192.168.38.140:/srv/nfs /mnt/dev
+cd /mmnt/dev
+unzip save.zip
+```
+
+
+<img width="716" height="268" alt="image" src="https://github.com/user-attachments/assets/5e1114b0-c9a6-4374-a845-455694758c09" />
 
   
 
