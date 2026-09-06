@@ -224,8 +224,12 @@ sudo -l
 
 ## Lessons Learned
 
-
+- Perform thorough service and directory enumeration.
+- Identify misconfigured services such as NFS.
+- Test web applications for vulnerabilities like LFI.
+- Always check sudo -l for privilege-escalation opportunities.
+- Chain vulnerabilities together to achieve privilege escalation to root.
   
-
+---
 
 
