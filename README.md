@@ -73,8 +73,20 @@ ffuf -u http://192.168.38.140:80/FUZZ -w /usr/share/wordlists/dirbuster/director
 
 <img width="1280" height="925" alt="image" src="https://github.com/user-attachments/assets/d5c798fd-4c57-40b5-8b57-4c77228bd293" />
 
+<img width="879" height="427" alt="image" src="https://github.com/user-attachments/assets/062ef029-db69-40a9-b088-d83e0e35c3b9" />
+<img width="851" height="463" alt="image" src="https://github.com/user-attachments/assets/7977b848-6305-427c-80a6-311de972fe6c" />
+<img width="841" height="452" alt="image" src="https://github.com/user-attachments/assets/6d5e9ea1-427c-475c-a8ae-7014250fe45e" />
 
-- On port (8080)  
+After enumerating the web server running on port 80, we gained valuable information about the application and discovered a username and password.
+
+```bash
+Username: bolt
+Password: I_love_java
+```  
+
+
+
+- On port (8080) 
 
 ```bash
 ffuf -u http://192.168.38.140:8080/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
