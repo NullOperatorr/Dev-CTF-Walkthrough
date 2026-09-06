@@ -42,3 +42,31 @@ We can discover **Dev** via Ping Sweep (nmap) or Arp scan (netdiscover) and the 
 
 
 ---
+
+
+## Enumeration
+
+**1- Port Scanning:**
+
+```bash
+nmap -Pn -sC -sS -sV -p- -T4 192.168.38.140
+```
+
+<img width="594" height="691" alt="image" src="https://github.com/user-attachments/assets/3928002f-4dde-4aae-9516-0343b9b6ace9" />  
+
+| Port | Service | Version / Details |
+|------|---------|-------------------|
+| 22 | SSH | OpenSSH 7.9p1 |
+| 80 | HTTP | Apache httpd 2.4.38 |
+| 111 | RPC | RPCBind |
+| 2049 | NFS | Network File System |
+| 8080 | HTTP | Apache httpd 2.4.38 |
+| 38005 | RPC | Unknown |
+| 45699 | RPC | Unknown |
+| 49185 | RPC | Unknown |
+| 57209 | RPC | Unknown |
+
+
+ 
+
+
