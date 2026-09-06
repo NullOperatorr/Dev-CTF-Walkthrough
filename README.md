@@ -165,6 +165,8 @@ ssh -i id_rsa jeanpaul@192.168.38.140
 
 <img width="1204" height="487" alt="image" src="https://github.com/user-attachments/assets/24a1b8ac-8115-40e7-87c9-d6472d2de666" /> 
 
+---
+
 
 ## Maintaining Access
 
@@ -189,6 +191,23 @@ sudo -l
 ```      
 
 <img width="1190" height="424" alt="image" src="https://github.com/user-attachments/assets/f2b297e2-3b94-489d-9208-7f7e940800a4" />
+
+
+
+---
+
+
+## Vulnerabilities & Remediation
+
+- 
+
+
+
+
+---
+
+## Lessons Learned
+
 
   
 
