@@ -65,7 +65,10 @@ nmap -Pn -sC -sS -sV -p- -T4 192.168.38.140
 
 **2- Subdirectory Enumeration:**
 
-- On port (80)  
+- On port (80)
+
+  <img width="1240" height="866" alt="image" src="https://github.com/user-attachments/assets/79486dfb-5734-440a-b664-20b5f2de4347" />
+
 
 ```bash
 ffuf -u http://192.168.38.140:80/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
