@@ -101,5 +101,18 @@ ffuf -u http://192.168.38.140:8080/FUZZ -w /usr/share/wordlists/dirbuster/direct
  <img width="1275" height="903" alt="image" src="https://github.com/user-attachments/assets/dbedab96-f004-438c-b5b4-a3ec9110d1a5" />
 <img width="1266" height="599" alt="image" src="https://github.com/user-attachments/assets/f8a52d31-e620-456f-ac22-c6d2fbc26d69" />
 
+```bash
+Register
+Username: tester
+```
 
+<img width="1193" height="454" alt="image" src="https://github.com/user-attachments/assets/cb2518b3-1e79-493a-878a-6b638daa4473" />
+
+- I will then search for boltwire version exploitation.
+https://www.exploit-db.com/exploits/48411 
+
+  <img width="1176" height="872" alt="image" src="https://github.com/user-attachments/assets/575eed32-4962-487c-a9d8-b7b706056930" />
+
+
+  
 
