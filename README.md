@@ -20,6 +20,22 @@ CyberLab-13
 
   ----
 
-  
+
+## Reconnaissance
+
+- Host Discovery:
+
+```bash
+netdiscover -r 192.168.38.0/24
+```
+<img width="872" height="309" alt="image" src="https://github.com/user-attachments/assets/91da90ed-650a-4f09-83b1-a93384091a11" />
+
+
+```bash
+nmap -sn 192.168.38.0/24
+```
+
+We can discover **Dev** via Ping Sweep or Arp scan and the discovered target has IP-Address (192.168.38.140).
+
 
 ---
