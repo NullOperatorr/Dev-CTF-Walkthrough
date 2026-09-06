@@ -63,7 +63,19 @@ nmap -Pn -sC -sS -sV -p- -T4 192.168.38.140
 | 8080 | HTTP | Apache httpd 2.4.38 |
 
 
+**2- Subdirectory Enumeration:**
 
+```bash
+ffuf -u http://192.168.38.140:80/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+
+<img width="1280" height="925" alt="image" src="https://github.com/user-attachments/assets/d5c798fd-4c57-40b5-8b57-4c77228bd293" />
+
+
+
+```bash
+ffuf -u http://192.168.38.140:8000/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
  
 
 
