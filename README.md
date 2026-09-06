@@ -74,7 +74,7 @@ ffuf -u http://192.168.38.140:80/FUZZ -w /usr/share/wordlists/dirbuster/director
 
 
 ```bash
-ffuf -u http://192.168.38.140:8000/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+ffuf -u http://192.168.38.140:8080/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ```
  
 
