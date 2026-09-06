@@ -76,6 +76,8 @@ ffuf -u http://192.168.38.140:80/FUZZ -w /usr/share/wordlists/dirbuster/director
 ```bash
 ffuf -u http://192.168.38.140:8080/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ```
- 
+
+ <img width="1275" height="903" alt="image" src="https://github.com/user-attachments/assets/dbedab96-f004-438c-b5b4-a3ec9110d1a5" />
+
 
 
