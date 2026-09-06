@@ -99,6 +99,7 @@ ffuf -u http://192.168.38.140:8080/FUZZ -w /usr/share/wordlists/dirbuster/direct
 ```
 
  <img width="1275" height="903" alt="image" src="https://github.com/user-attachments/assets/dbedab96-f004-438c-b5b4-a3ec9110d1a5" />
+<img width="1266" height="599" alt="image" src="https://github.com/user-attachments/assets/f8a52d31-e620-456f-ac22-c6d2fbc26d69" />
 
 
 
