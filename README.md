@@ -77,7 +77,7 @@ ffuf -u http://192.168.38.140:80/FUZZ -w /usr/share/wordlists/dirbuster/director
 <img width="851" height="463" alt="image" src="https://github.com/user-attachments/assets/7977b848-6305-427c-80a6-311de972fe6c" />
 <img width="841" height="452" alt="image" src="https://github.com/user-attachments/assets/6d5e9ea1-427c-475c-a8ae-7014250fe45e" />
 
-After enumerating the web server running on port 80, we gained valuable information about the application and discovered a username and password.
+After enumerating the web server running on port 80 with the subdirectory (/app), we gained valuable information about the application and discovered a username and password.
 
 ```bash
 Username: bolt
