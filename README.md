@@ -108,7 +108,7 @@ Username: tester
 
 <img width="1193" height="454" alt="image" src="https://github.com/user-attachments/assets/cb2518b3-1e79-493a-878a-6b638daa4473" />
 
-- I will then search for boltwire version exploitation.
+- I will then search for boltwire version exploitation hoping to find any known vulnerability for it.
 https://www.exploit-db.com/exploits/48411 
 
   <img width="1176" height="872" alt="image" src="https://github.com/user-attachments/assets/575eed32-4962-487c-a9d8-b7b706056930" />
