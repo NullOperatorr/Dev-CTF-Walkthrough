@@ -89,7 +89,10 @@ Password: I_love_java
 
 
 
-- On port (8080) 
+- On port (8080)
+
+  <img width="1275" height="858" alt="image" src="https://github.com/user-attachments/assets/04799cb4-56f1-468b-a053-0645bb363798" />
+  
 
 ```bash
 ffuf -u http://192.168.38.140:8080/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
