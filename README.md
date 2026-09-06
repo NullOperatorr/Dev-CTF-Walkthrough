@@ -35,7 +35,10 @@ netdiscover -r 192.168.38.0/24
 nmap -sn 192.168.38.0/24
 ```
 
-We can discover **Dev** via Ping Sweep or Arp scan and the discovered target has IP-Address (192.168.38.140).
+<img width="706" height="402" alt="image" src="https://github.com/user-attachments/assets/5ec23507-bbae-4525-be05-bc21993aa8b3" />
+
+
+We can discover **Dev** via Ping Sweep (nmap) or Arp scan (netdiscover) and the discovered target has IP-Address (192.168.38.140).
 
 
 ---
