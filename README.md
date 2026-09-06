@@ -199,7 +199,23 @@ sudo -l
 
 ## Vulnerabilities & Remediation
 
-- 
+- Information Disclosure: Sensitive information was exposed.  
+**Remediation:** Remove sensitive information from public access.
+  
+- Exposed Directories: Web directories were publicly accessible.  
+**Remediation:** Disable directory listing.
+  
+- NFS Misconfiguration: An NFS share was improperly exposed.  
+**Remediation:** Restrict NFS access to trusted users/hosts.
+  
+- Local File Inclusion: Local files could be read through the web application.  
+**Remediation:** Properly validate file input.
+  
+- Hardcoded Credentials: Valid credentials were exposed.  
+**Remediation:** Store credentials securely and rotate them.  
+  
+- Sudo Misconfiguration: Excessive sudo permissions allowed root access.  
+**Remediation:** Limit sudo permissions to required commands only.
 
 
 
