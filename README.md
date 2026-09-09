@@ -12,7 +12,7 @@ CyberLab-13
 - Difficulty:	Medium
 - Goal:	Obtain Root Access
 
-**Enviroment:**
+**Environment:**
 
 - Kali Machine (Attacker).
 - Dev (.ovf) VM.
