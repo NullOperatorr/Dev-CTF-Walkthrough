@@ -231,5 +231,5 @@ sudo -l
 - Chain vulnerabilities together to achieve privilege escalation to root.
   
 ---
-
+---
 
